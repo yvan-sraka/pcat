@@ -11,7 +11,8 @@ fn main() {
             let mut reader = std::io::BufReader::new(file);
             let mut buffer = String::new();
             loop {
-                let len = reader.read_line(&mut buffer)
+                let len = reader
+                    .read_line(&mut buffer)
                     .expect(&format!("Error: couldn't read file `{}`", path));
                 if len == 0 {
                     return buffer;
