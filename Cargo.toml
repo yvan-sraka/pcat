@@ -2,5 +2,4 @@
 name = "tac"
 version = "0.1.0"
 authors = ["Yvan Sraka <yvan.sraka@gmail.com>"]
-
-[dependencies]
+edition = "2018"
