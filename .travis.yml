@@ -1,0 +1,7 @@
+language: rust
+cache: cargo
+script:
+  - mkfifo A B
+  - cargo run A B > output &
+  - echo "bar" > B
+  - echo "foo" > A
