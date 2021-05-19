@@ -1,5 +1,7 @@
 [package]
-name = "tac"
+name = "pcat"
 version = "0.1.0"
-authors = ["Yvan Sraka <yvan.sraka@gmail.com>"]
+authors = ["Yvan Sraka <yvan@sraka.xyz>"]
 edition = "2018"
+description = "A dead-lock free parallel cat implementation"
+license = "GPL-3.0"

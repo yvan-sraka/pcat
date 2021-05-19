@@ -1,6 +1,6 @@
-# `tac`
+# 🐱 `pcat`
 
-`tac` is an alternative version of [`cat`](https://linux.die.net/man/1/cat)
+`pcat` is an alternative version of [`cat`](https://linux.die.net/man/1/cat)
 that will not fail (to read inputs) when results of computation to concatenate
 are not available in the right order!
 
@@ -15,12 +15,12 @@ So, glad to know that with `tac` you can remove it:
 
 ```shell
 mkfifo A B
-tac A B > output &
+pcat A B > output &
 echo "bar" > B # \o/
 echo "foo" > A
 ```
 
-Of course, `tac` and `cat` give the same final result:
+Of course, `pcat` and `cat` give the same final result:
 
 ```raw
 foo
