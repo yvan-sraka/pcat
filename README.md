@@ -1,3 +1,5 @@
+<!-- cargo-sync-readme start -->
+
 # 🐱 `pcat`
 
 `pcat` is an alternative version of [`cat`](https://linux.die.net/man/1/cat)
@@ -31,3 +33,5 @@ This could be particularly useful when you want to prototype parallel code
 that's rely on concatenation at some point, using classic `cat` would create IO
 lock which is not really funny... this project was made at origin for the
 purpose of [YeAST](https://github.com/yvan-sraka/YeAST/) implementation!
+
+<!-- cargo-sync-readme end -->
