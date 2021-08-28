@@ -1,7 +1,9 @@
 [package]
 name = "pcat"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Yvan Sraka <yvan@sraka.xyz>"]
 edition = "2018"
 description = "A dead-lock free parallel cat implementation"
+repository = "https://github.com/yvan-sraka/pcat"
+readme = "README.md"
 license = "GPL-3.0"
